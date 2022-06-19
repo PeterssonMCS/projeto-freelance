@@ -1,0 +1,152 @@
+*{
+    font-family:'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+#navegacao{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height:80px;
+    background-color: orangered;
+}
+
+#container_nav{
+    position: relative;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-right: 20px;
+}
+
+#logo{
+    position: relative;
+    height:50px;
+    padding-left: 20px;
+}
+
+.nav_links{
+    position: relative;
+    padding: 20px;
+    color: white;
+}
+
+#slide{
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+    width:100%;
+}
+
+
+#rodape{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:80px;
+    background-color: orangered;
+}
+
+#container_rodape{
+    position: relative;
+    list-style: none;
+    width : 100%;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding-right: 20px;
+}
+
+#display_marcas{
+    padding-top:80px;
+    height : 500px;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#imagem_marcas{
+    display: flex;
+    padding-top: 20px;
+    width: 400px;
+    height: 400px;
+}
+
+#container_marcas{
+    display: flex;
+    height:100%;
+    flex-direction: column;
+    flex-wrap: wrap;
+    list-style: none;
+    align-content:space-between;
+    justify-content: center;
+    padding-right: 80px;
+}
+
+.marc{
+    font-size: 40px;
+}
+
+.grid_container{
+    padding-left: 10px;
+    display: grid;
+    padding-top: 90px;
+    grid-template-columns: 31% 31% 31%;
+    gap:20px 20px;
+}
+
+.grid-item{
+    display: grid;
+    grid-template-rows: 90% 10%;
+    justify-content: center;
+}
+
+.grid-image{
+    max-width: 100%;
+    max-height: 300px;
+}
+
+.sugestao{
+    display: flex;
+    padding-left: 10%;
+    padding-right: 10%;
+    flex-direction: column;
+    justify-items:center;
+    
+}
+
+.imagem-sugestao{
+    width: 50%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.texto{
+    text-align: justify;
+    font-size: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+#enderecos{
+    display:flex;
+    flex-direction: column;
+}
+
+textarea{
+    width:80%;
+    height:100px;
+}
+
+input{
+    width:80%;
+}
